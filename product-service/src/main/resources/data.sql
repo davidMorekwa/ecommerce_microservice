@@ -1,0 +1,2 @@
+INSERT INTO ecommerce_microservice.t_categories(name, description) VALUES('Category 1', "Description 2"), ('Category 2', 'Description 2'), ('Category 3', "Description 3"), ('Category 4', "Decription 4"), ('Category 5', "Description 5");
+INSERT INTO ecommerce_microservice.t_products(name, price, description, in_stock, category_id) VALUES('Product 1', 100, "Description of Product 1", 10, 2), ('Product 2', 200, "Description of product 2", 4, 1), ('Product 3', 300, "Description of product 3", 5, 2);
